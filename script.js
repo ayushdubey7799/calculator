@@ -7,12 +7,8 @@ buttons.forEach(element => {
 console.log()
 const evaluate = (e) => {
     let x = e.target.innerHTML;
-<<<<<<< HEAD
-   
-=======
     console.log(x);
     console.log(x);
->>>>>>> origin/master
 
     if(x=="="){
         stringToEvaluate = "" + eval(stringToEvaluate)
@@ -38,6 +34,4 @@ function displayString(){
     display.innerHTML = stringToEvaluate;
     console.log(stringToEvaluate);
 }
-
-// information
 
