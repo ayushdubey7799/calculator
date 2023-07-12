@@ -35,11 +35,5 @@ function displayString(){
     console.log(stringToEvaluate);
 }
 
+// 1
 
-
-// git checkout new
-// changes....in new
-// push to new 
-
-// git checckout master
-// git pull 
