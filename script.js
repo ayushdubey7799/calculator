@@ -35,11 +35,7 @@ function displayString(){
     console.log(stringToEvaluate);
 }
 
-// information
-
-// git checkout new
-// changes....in new
-// push to new 
-
-// git checckout master
-// git pull 
+// 1
+// 2dncsld clm,
+// 3
+// 4 nklnsdlnc
