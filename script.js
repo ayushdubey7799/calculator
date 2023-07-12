@@ -35,3 +35,5 @@ function displayString(){
     console.log(stringToEvaluate);
 }
 
+// information
+
