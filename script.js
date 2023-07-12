@@ -35,7 +35,7 @@ function displayString(){
     console.log(stringToEvaluate);
 }
 
-// information
+
 
 // git checkout new
 // changes....in new
