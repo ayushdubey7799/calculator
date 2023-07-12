@@ -37,3 +37,9 @@ function displayString(){
 
 // information
 
+// git checkout new
+// changes....in new
+// push to new 
+
+// git checckout master
+// git pull 
