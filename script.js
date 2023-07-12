@@ -11,7 +11,7 @@ const evaluate = (e) => {
 
     if(x=="="){
         stringToEvaluate = "" + eval(stringToEvaluate)
-
+        console.log("x");
     }
     else if(x=="DEL"){
         stringToEvaluate = stringToEvaluate.slice(0,-1);
