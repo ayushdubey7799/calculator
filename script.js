@@ -8,7 +8,7 @@ console.log()
 const evaluate = (e) => {
     let x = e.target.innerHTML;
     console.log(x);
-    console.log(x);
+    console.log(y);
 
     if(x=="="){
         stringToEvaluate = "" + eval(stringToEvaluate)
