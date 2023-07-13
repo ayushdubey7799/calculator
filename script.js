@@ -4,7 +4,6 @@ let stringToEvaluate = "";
 buttons.forEach(element => {
     element.addEventListener('click',(e) => evaluate(e));
 });
-console.log()
 const evaluate = (e) => {
     let x = e.target.innerHTML;
     console.log(x);
@@ -32,10 +31,16 @@ const evaluate = (e) => {
 
 function displayString(){
     display.innerHTML = stringToEvaluate;
-    console.log(stringToEvaluate);
 }
 
-// 1
-// 2dncsld clm,
-// 3
-// 4 nklnsdlnc
+const a = {
+    b(){
+        return () => {
+            console.log(this);
+        }
+      
+    }
+    
+
+}
+a.b()()();
